@@ -93,11 +93,6 @@ class car_dealer_car_test_cases(unittest.TestCase):
         car.top_speed = 100
         self.assertEqual(car.top_speed, 100)
 
-    def test_car_has_carry_limit(self):
-        car = Car()
-        car.carry_limit = 1000
-        self.assertEqual(car.carry_limit, 1000)
-
     def test_car_has_is_running(self):
         car = Car()
         self.assertEqual(car.is_running, False)
